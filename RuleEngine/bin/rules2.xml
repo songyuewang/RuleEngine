@@ -1,0 +1,14 @@
+<rules>
+  <rule name="rule1">
+    <condition property="credit" operator="gt" valueType="int"
+        value="720"></condition>
+    <action qualified="true" adjustType="minus" adjustRate="0.5"></action>
+  </rule>
+
+  
+  <rule mame="rule2">
+    <condition property="productName" operator="eq" valueType="string"
+        value="7-1 ARM"></condition>
+    <action qualified="true" adjustType="plus" adjustRate="0.6"></action>
+  </rule>
+</rules>
