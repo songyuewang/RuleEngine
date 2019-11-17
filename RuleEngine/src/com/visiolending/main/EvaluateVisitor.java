@@ -99,7 +99,7 @@ public class EvaluateVisitor implements RuleNode.Visitor<Object>{
 	        return numericValue < Integer.valueOf(node.getValue());
 	      }
 	    }
-	    return null;
+	    return false;
 	  }
 
 	  @Override
